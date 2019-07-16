@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1rem = 10px; */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+}
+
+/* Helpers */
+.alert {
+    border: 1px solid orangered;
+    padding: 2rem;
+    margin: 1rem 0;
+    color: orangered;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+.form-control {
+    border: 1px solid #000;
+    font-size: 1.6rem;
+    padding: .5rem;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    background-color: #aaa;
+    color: #000;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* Grid */
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: 80rem;
+    margin: 0 auto;
+}
+
+/* ////// */
+/* Header */
+.header {
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.filter {
+    padding: 1rem 0;
+    border-top: 2px solid #000;
+}
+
+/* /////// */
+/* Section */
+.tareas article {
+    margin: 1rem 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.urgente {
+    background-color: tomato;
+    color: white;
+}
+
+.diaria {
+    background-color: lightblue;
+    color: white;
+}
+
+.mensual {
+    background-color: lightgreen;
+    color: white;
+}
+
+/* ////// */
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer p {
+    padding: 2rem;
+    text-align: center;
+}
