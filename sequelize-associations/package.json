@@ -1,0 +1,23 @@
+{
+  "name": "sequelize-associations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mariadb": "^2.1.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
