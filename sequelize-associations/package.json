@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "mariadb": "^2.1.0",
     "mysql2": "^1.6.5",
-    "sequelize": "^5.10.1"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
